@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+  height: 40px;
+  fill: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-active {
+
+  .sign-up {
+    @apply bg-red-300 fill-gray-900;
+  }
+
+  .log-in {
+    @apply bg-red-300 fill-gray-900;
+  }
+}
